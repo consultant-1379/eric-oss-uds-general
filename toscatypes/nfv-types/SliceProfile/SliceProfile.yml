@@ -1,0 +1,30 @@
+tosca_definitions_version: tosca_simple_yaml_1_0_0
+node_types:
+  com.ericsson.so.nodes.SliceProfile:
+    derived_from: com.ericsson.so.nodes.ServiceRequirement
+    properties:
+      sNSSAIList:
+        type: list
+        entry_schema: com.ericsson.so.datatypes.SNSSAI
+      pLMNIdList:
+        type: list
+        entry_schema: com.ericsson.so.datatypes.PLMNId
+      perfReq:
+        type: com.ericsson.so.datatypes.perfRef
+      maxNumberofUEs:
+        type: integer
+        default: 1000
+      coverageAreaTAList:
+        type: list
+        entry_schema: integer
+        default: [999]
+      latency:
+        type: integer
+        default: 10
+      uEMobilityLevel:
+        type: string
+        constraints:
+          - valid_values: [ "STATIONARY", "NOMADIC", "RESTRICTED MOBILITY", "FULLY MOBILITY" ]
+      resourceSharingLevel:
+        type: string
+        default: "NON-SHARED"

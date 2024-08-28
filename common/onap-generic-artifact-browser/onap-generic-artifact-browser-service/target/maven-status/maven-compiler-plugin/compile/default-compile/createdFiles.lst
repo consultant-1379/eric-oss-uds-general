@@ -1,0 +1,9 @@
+org\onap\sdc\gab\GABService.class
+org\onap\sdc\gab\model\GABResultEntry.class
+org\onap\sdc\gab\GABServiceImpl.class
+org\onap\sdc\gab\model\GABQuery$GABQueryType.class
+org\onap\sdc\gab\yaml\YamlParser.class
+org\onap\sdc\gab\model\GABResults.class
+org\onap\sdc\gab\yaml\GABYamlParser.class
+org\onap\sdc\gab\model\GABResult.class
+org\onap\sdc\gab\model\GABQuery.class

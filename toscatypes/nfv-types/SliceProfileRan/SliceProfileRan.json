@@ -1,0 +1,15 @@
+{
+	"payloadName": "SliceProfileRan.yml",
+	"contactId": "jh0003",
+	"name": "EO RAN Slice Profile",
+	"description": "EO RAN Slice Profile",
+	"resourceIconPath": "network",
+	"resourceType": "VFC",
+	"categories": [{
+		"name": "Generic",
+		"subcategories": [{
+			"name": "Network Elements"
+		}]
+	}],
+	"tags": ["EO RAN Slice Profile"]
+}

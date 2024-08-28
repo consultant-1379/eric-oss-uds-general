@@ -1,0 +1,35 @@
+tosca_definitions_version: tosca_simple_yaml_1_0_0
+node_types:
+  org.openecomp.resource.vfc.rules.nodes.heat.network.neutron.SecurityRules:
+    derived_from: tosca.nodes.Root
+    properties:
+      description:
+        type: string
+        description: Description of the security group
+        required: false
+        status: supported
+      name:
+        type: string
+        description: A symbolic name for this security group, which is not required to be unique.
+        required: false
+        status: supported
+      rules:
+        type: list
+        description: List of security group rules
+        required: false
+        status: supported
+        entry_schema:
+          type: org.openecomp.datatypes.heat.network.neutron.SecurityRules.Rule
+    attributes:
+      show:
+        type: string
+        description: Detailed information about resource
+        status: supported
+    requirements:
+    - port:
+        capability: tosca.capabilities.Attachment
+        node: org.openecomp.resource.cp.nodes.heat.network.neutron.Port
+        relationship: org.openecomp.relationships.AttachesTo
+        occurrences:
+        - 0
+        - UNBOUNDED

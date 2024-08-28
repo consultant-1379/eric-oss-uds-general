@@ -1,0 +1,66 @@
+tosca_definitions_version: tosca_simple_yaml_1_0_0
+node_types:
+  org.openecomp.resource.cp.nodes.heat.contrailV2.VirtualMachineInterface:
+    derived_from: org.openecomp.resource.cp.nodes.network.Port
+    properties:
+      name:
+        description: Virtual Machine Interface name
+        type: string
+        status: supported
+        required: false
+      security_group_refs:
+        description: List of security groups.
+        type: list
+        status: supported
+        entry_schema:
+          type: string
+        required: false
+      virtual_network_refs:
+        description: List of virtual networks.
+        type: list
+        status: supported
+        entry_schema:
+          type: string
+        required: false
+      virtual_machine_interface_properties:
+        description: virtual machine interface properties.
+        type: org.openecomp.datatypes.heat.contrailV2.virtual.machine.interface.Properties
+        status: supported
+        required: false
+      port_tuple_refs:
+        description: List of port tuples.
+        type: list
+        status: supported
+        entry_schema:
+          type: string
+        required: false
+      virtual_machine_interface_mac_addresses:
+        description: List of mac addresses.
+        type: list
+        status: supported
+        entry_schema:
+          type: string
+        required: false
+      virtual_machine_interface_allowed_address_pairs:
+        description: Virtual Machine Interface allowed address pairs.
+        type: org.openecomp.datatypes.heat.contrailV2.virtual.machine.subInterface.AddressPairs
+        status: supported
+        required: false      
+    attributes:
+      fq_name:
+        description: The FQ name of the Virtual Network.
+        type: string
+        status: supported
+      show:
+        description: All attributes.
+        type: string
+        status: supported
+    capabilities:
+      binding:
+        type: tosca.capabilities.network.Bindable
+        occurrences:
+        - 0
+        - UNBOUNDED
+        valid_source_types:
+        - org.openecomp.resource.cp.nodes.heat.network.contrailV2.VLANSubInterface
+        - org.openecomp.resource.cp.nodes.heat.network.v2.contrailV2.VLANSubInterface

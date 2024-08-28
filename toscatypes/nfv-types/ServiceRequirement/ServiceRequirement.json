@@ -1,0 +1,15 @@
+{
+	"payloadName": "ServiceRequirement.yml",
+	"contactId": "jh0003",
+	"name": "ServiceRequirement",
+	"description": "Base type for service requirement",
+	"resourceIconPath": "network",
+	"resourceType": "VFC",
+	"categories": [{
+		"name": "Generic",
+		"subcategories": [{
+			"name": "Network Elements"
+		}]
+	}],
+	"tags": ["ServiceRequirement"]
+}

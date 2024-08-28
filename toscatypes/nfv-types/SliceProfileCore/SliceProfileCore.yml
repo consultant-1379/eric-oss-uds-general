@@ -1,0 +1,17 @@
+tosca_definitions_version: tosca_simple_yaml_1_0_0
+node_types:
+  com.ericsson.so.nodes.SliceProfile.Core:
+    derived_from: com.ericsson.so.nodes.SliceProfile
+    properties:
+       dLThptPerSlice:
+         type: com.ericsson.so.datatypes.DLTHPTPERSLICE
+       dLThptPerUE:
+         type: com.ericsson.so.datatypes.DLTHPTPERUE
+       uLThptPerSlice:
+         type: com.ericsson.so.datatypes.ULTHPTPERSLICE
+       uLThptPerUE:
+         type: com.ericsson.so.datatypes.ULTHPTPERUE
+       maxNumberOfPDUSessions:
+         type: com.ericsson.so.datatypes.MAXNUMBEROFPDUSESSIONS
+       maxPktSize:
+         type: com.ericsson.so.datatypes.MAXPKTSIZE

@@ -1,0 +1,37 @@
+tosca_definitions_version: tosca_simple_yaml_1_0_0
+node_types: 
+  org.openecomp.resource.abstract.nodes.PNF: 
+    derived_from: tosca.nodes.Root
+    properties:
+      nf_function:
+        type: string
+      nf_role:
+        type: string
+      nf_type:
+        type: string
+      software_versions:
+        type: list
+        entry_schema:
+          type: string
+      sdnc_model_name:
+        type: string
+      sdnc_model_version:
+        type: string
+      sdnc_artifact_name:
+        type: string
+      skip_post_instantiation_configuration:
+        type: boolean
+        default: true
+        constraints:
+        - valid_values: [true,false]
+      controller_actor:
+        type: string
+        default: SO-REF-DATA
+        constraints:
+        - valid_values: 
+          - SO-REF-DATA
+          - CDS
+          - SDNC
+          - APPC
+      default_software_version:
+        type: string

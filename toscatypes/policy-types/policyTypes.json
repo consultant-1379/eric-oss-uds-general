@@ -1,0 +1,130 @@
+{
+  "tosca.policies.Root": {
+    "displayName": "Root",
+    "icon": "policy-root"
+  },
+  "tosca.policies.Placement": {
+    "displayName": "Placement",
+    "icon": "policy-placement"
+  },
+  "tosca.policies.Scaling": {
+    "displayName": "Scaling",
+    "icon": "policy-scaling"
+  },
+  "tosca.policies.Update": {
+    "displayName": "Update",
+    "icon": "policy-update"
+  },
+  "tosca.policies.Performance": {
+    "displayName": "Performance",
+    "icon": "policy-performance"
+  },
+  "org.openecomp.policies.placement.Antilocate": {
+    "displayName": "Placement Antilocate",
+    "icon": "policy-placement-antilocate"
+  },
+  "org.openecomp.policies.placement.Colocate": {
+    "displayName": "Placement Colocate",
+    "icon": "policy-placement-colocate"
+  },
+  "org.openecomp.policies.placement.valet.Diversity": {
+    "displayName": "Placement Valet Diversity",
+    "icon": "policy-placement-valet-diversity"
+  },
+  "org.openecomp.policies.placement.valet.Exclusivity": {
+    "displayName": "Placement Valet Exclusivity",
+    "icon": "policy-placement-valet-exclusivity"
+  },
+  "org.openecomp.policies.placement.valet.Affinity": {
+    "displayName": "Placement Valet Affinity",
+    "icon": "placement-valet-affinity"
+  },
+  "org.openecomp.policies.scaling.Fixed": {
+    "displayName": "Scaling Fixed",
+    "icon": "policy-fixed"
+  },
+  "org.openecomp.policies.External": {
+    "displayName": "External",
+    "icon": "policy-external"
+  },
+  "tosca.policies.nfv.InstantiationLevels": {
+    "displayName": "NFV InstantiationLevels",
+    "icon": "policy-nfv-instantiationlevels"
+  },
+  "tosca.policies.nfv.VduInstantiationLevels": {
+    "displayName": "NFV Vdu InstantiationLevels",
+    "icon": "policy-nfv-vdu-instantiationlevels"
+  },
+  "tosca.policies.nfv.VirtualLinkInstantiationLevels": {
+    "displayName": "NFV VirtualLink InstantiationLevels",
+    "icon": "policy-nfv-vl-instantiationlevels"
+  },
+  "tosca.policies.nfv.ScalingAspects": {
+    "displayName": "NFV ScalingAspects",
+    "icon": "policy-nfv-scalingaspects"
+  },
+  "tosca.policies.nfv.VduScalingAspectDeltas": {
+    "displayName": "NFV Vdu ScalingAspectDeltas",
+    "icon": "policy-nfv-vdu-scalingAspectdeltas"
+  },
+  "tosca.policies.nfv.VirtualLinkBitrateScalingAspectDeltas": {
+    "displayName": "NFV VirtualLinkBitrate ScalingAspectDeltas",
+    "icon": "policy-nfv-vlbitrate-scalingAspectdeltas"
+  },
+  "tosca.policies.nfv.VduInitialDelta": {
+    "displayName": "NFV Vdu InitialDelta",
+    "icon": "policy-nfv-vdu-initialdelta"
+  },
+  "tosca.policies.nfv.VirtualLinkBitrateInitialDelta": {
+    "displayName": "NFV VirtualLinkBitrate InitialDelta",
+    "icon": "policy-nfv-vlbitrate-initialdelta"
+  },
+  "tosca.policies.nfv.SecurityGroupRule": {
+    "displayName": "NFV SecurityGroupRule",
+    "icon": "policy-nfv-securitygrouprule"
+  },
+  "tosca.policies.nfv.SupportedVnfInterface": {
+    "displayName": "NFV Supported VnfInterface",
+    "icon": "policy-nfv-supported-vnfinterface"
+  },
+  "tosca.policies.nfv.AffinityRule": {
+  "displayName": "NFV AffinityRule",
+  "icon": "policy-nfv-affinityrule"
+  },
+  "tosca.policies.nfv.AntiAffinityRule": {
+    "displayName": "NFV AntiAffinityRule",
+    "icon": "policy-nfv-anti-affinityrule"
+  },
+  "tosca.policies.nfv.NsAffinityRule": {
+    "displayName": "NFV NsAffinityRule",
+    "icon": "policy-nfv-anti-affinityrule"
+  },
+  "tosca.policies.nfv.NsAntiAffinityRule": {
+    "displayName": "NFV NsAntiAffinityRule",
+    "icon": "policy-nfv-anti-affinityrule"
+  },
+  "tosca.policies.nfv.Abstract.SecurityGroupRule": {
+    "displayName": "NFV Abstract SecurityGroupRule",
+    "icon": "policy-nfv-anti-affinityrule"
+  },
+  "tosca.policies.nfv.Abstract.SecurityGroupRule": {
+    "displayName": "NFV Abstract SecurityGroupRule",
+    "icon": "policy-nfv-anti-affinityrule"
+  },
+  "tosca.policies.nfv.NsSecurityGroupRule": {
+    "displayName": "NFV NsSecurityGroupRule",
+    "icon": "policy-nfv-anti-affinityrule"
+  },
+  "tosca.policies.nfv.NfpRule": {
+    "displayName": "NFV NfpRule ",
+    "icon": "policy-nfv-anti-affinityrule"
+  },
+  "tosca.policies.nfv.NsMonitoring": {
+    "displayName": "NFV NsMonitoring",
+    "icon": "policy-nfv-anti-affinityrule"
+  },
+  "tosca.policies.nfv.VnfMonitoring": {
+    "displayName": "NFV VnfMonitoring",
+    "icon": "policy-nfv-anti-affinityrule"
+  }
+}

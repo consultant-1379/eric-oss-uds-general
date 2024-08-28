@@ -1,0 +1,15 @@
+{
+	"payloadName": "SliceProfile.yml",
+	"contactId": "jh0003",
+	"name": "SliceProfile",
+	"description": "EO Slice Profile",
+	"resourceIconPath": "network",
+	"resourceType": "VFC",
+	"categories": [{
+		"name": "Generic",
+		"subcategories": [{
+			"name": "Network Elements"
+		}]
+	}],
+	"tags": ["SliceProfile"]
+}

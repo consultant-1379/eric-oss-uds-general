@@ -1,0 +1,387 @@
+# TOSCA Simple Yaml Profile 1.3 types
+
+tosca.datatypes.Root:
+  description: The TOSCA root Data Type all other TOSCA base Data Types derive from
+
+integer:
+  derived_from: tosca.datatypes.Root
+
+timestamp:
+  derived_from: tosca.datatypes.Root
+
+string:
+  derived_from: tosca.datatypes.Root
+
+boolean:
+  derived_from: tosca.datatypes.Root
+
+float:
+  derived_from: tosca.datatypes.Root
+
+list:
+  derived_from: tosca.datatypes.Root
+
+map:
+  derived_from: tosca.datatypes.Root
+
+json:
+  derived_from: tosca.datatypes.Root
+
+scalar-unit:
+  derived_from: tosca.datatypes.Root
+
+scalar-unit.size:
+  derived_from: scalar-unit
+
+scalar-unit.time:
+  derived_from: scalar-unit
+
+scalar-unit.frequency:
+  derived_from: scalar-unit
+
+# 3GPP types
+
+org.3gpp.nrm.components.schemas.PlmnId:
+  derived_from: tosca.datatypes.Root
+  properties:
+    mcc:
+      type: integer
+    mnc:
+      type: string
+
+org.3gpp.nrm.components.schemas.Snssai:
+  derived_from: tosca.datatypes.Root
+  properties:
+    sst:
+      type: integer
+    sd:
+      type: string
+      default: '16777215'
+
+org.3gpp.nrm.components.schemas.PlmnInfo:
+  derived_from: tosca.datatypes.Root
+  properties:
+    plmnId:
+      type: org.3gpp.nrm.components.schemas.PlmnId
+    snssai:
+      type: org.3gpp.nrm.components.schemas.Snssai
+          
+org.3gpp.nrm.components.schemas.servAttrCom:
+  derived_from: tosca.datatypes.Root
+  properties:
+    category:
+      type: string
+      constraints:
+        - valid_values: [character, scalability]
+      required: true
+    tagging:
+      type: string
+      constraints:
+        - valid_values: [performance, function, operation]
+      required: false
+    exposure:
+      type: string
+      constraints:
+        - valid_values: [API, KPI]
+      required: true
+          
+org.3gpp.nrm.components.schemas.XLThpt:
+  derived_from: tosca.datatypes.Root
+  properties:
+    servAttrCom:
+      type: org.3gpp.nrm.components.schemas.servAttrCom
+      required: false
+    guaThpt:
+      type: integer
+      required: false
+    maxThpt:
+      type: integer
+      required: false
+         
+org.3gpp.nrm.components.schemas.DelayTolerance:
+  derived_from: tosca.datatypes.Root
+  properties:
+    servAttrCom:
+      type: org.3gpp.nrm.components.schemas.servAttrCom
+      required: false
+    support:
+      type: string
+      constraints:
+        - valid_values: ["NOT SUPPORTED", "SUPPORTED"]
+      required: false
+          
+org.3gpp.nrm.components.schemas.MaxPktSize:
+  derived_from: tosca.datatypes.Root
+  properties:
+    servAttrCom:
+      type: org.3gpp.nrm.components.schemas.servAttrCom
+      required: false
+    maxSize:
+      type: integer
+      required: false
+          
+org.3gpp.nrm.components.schemas.EnergyEfficiency:
+  derived_from: tosca.datatypes.Root
+  properties:
+    servAttrCom:
+      type: org.3gpp.nrm.components.schemas.servAttrCom
+      required: false
+    performance:
+      type: string
+      constraints:
+        - valid_values: ["eMBBEEPerfReq", "uRLLCEEPerfReq", "mIoTEEPerfReq"]
+      required: false
+          
+org.3gpp.nrm.components.schemas.TermDensity:
+  derived_from: tosca.datatypes.Root
+  properties:
+    servAttrCom:
+      type: org.3gpp.nrm.components.schemas.servAttrCom
+      required: false
+    density:
+      type: integer
+      required: false
+          
+org.3gpp.nrm.components.schemas.DeterministicComm:
+  derived_from: tosca.datatypes.Root
+  properties:
+    servAttrCom:
+      type: org.3gpp.nrm.components.schemas.servAttrCom
+      required: false
+    availability:
+      type: string
+      constraints:
+        - valid_values: ["NOT SUPPORTED", "SUPPORTED"]
+      required: false
+    periodicityList:
+      type: integer
+      required: false
+          
+org.3gpp.nrm.components.schemas.Positioning:
+  derived_from: tosca.datatypes.Root
+  properties:
+    servAttrCom:
+      type: org.3gpp.nrm.components.schemas.servAttrCom
+      required: false
+    availability:
+      type: string
+      constraints:
+        - valid_values: [CIDE-CID, OTDOA, RF fingerprinting, AECID, Hybrid positioning, NET-RTK]
+      required: false
+    predictionfrequency:
+      type: string
+      constraints:
+        - valid_values: ["PERSEC", "PERMIN", "PERHOUR"]
+      required: false
+    accuracy:
+      type: integer
+      required: false
+          
+org.3gpp.nrm.components.schemas.Synchronicity:
+  derived_from: tosca.datatypes.Root
+  properties:
+    servAttrCom:
+      type: org.3gpp.nrm.components.schemas.servAttrCom
+      required: false
+    availability:
+      type: string
+      constraints:
+        - valid_values: ["NOT SUPPORTED", "BETWEEN BS AND UE", "BETWEEN BS AND UE & UE AND UE"]
+      required: false
+    accuracy:
+      type: integer
+      required: false
+    
+           
+
+org.3gpp.nrm.components.schemas.RANSliceSubnetProfile:
+    derived_from: tosca.datatypes.Root
+    properties:
+        coverageAreaTAList:
+            type: list
+            entry_schema: integer
+            required: false
+        5qi:
+            type: integer
+            required: false
+        prioritylevel:
+            type: integer
+            required: false
+        uEMobilityLevel:
+            type: string
+            constraints:
+              - valid_values: [stationary, nomadic, restricted mobility, fully mobility]
+            required: false
+        resourceSharingLevel:
+            type: string
+            constraints:
+              - valid_values: [shared, non-shared]
+            required: false
+        maxNumberofUEs:
+            type: integer
+            required: false
+        activityFactor:
+            type: integer
+            required: false
+        dLThptPerUE:
+            type: org.3gpp.nrm.components.schemas.XLThpt
+            required: false
+        uLThptPerUE:
+            type: org.3gpp.nrm.components.schemas.XLThpt  
+            required: false
+        uESpeed:
+            type: integer
+            required: false
+        Reliability:
+            type: string
+            required: false
+        serviceType:
+            type: string
+            constraints:
+                - valid_values: [eMBB, URLLC, MIoT, V2X]
+            required: false
+        Latency:
+            type: integer
+            required: false
+        delayTolerance:
+            type: org.3gpp.nrm.components.schemas.DelayTolerance
+            required: false
+        sliceSimultaneousUse:
+            type: integer
+            constraints:
+                - valid_values: [0, 1, 2, 3, 4]
+            required: false
+        maxPktSize:
+            type: org.3gpp.nrm.components.schemas.MaxPktSize
+            required: false
+        energyEfficiency:
+        # not supported in CTM
+            type: org.3gpp.nrm.components.schemas.EnergyEfficiency  
+            required: false
+        termDensity:
+            type: org.3gpp.nrm.components.schemas.TermDensity
+            required: false
+        survivalTime:
+            type: string
+            required: false
+        deterministicComm:
+        # not supported in CTM
+            type: org.3gpp.nrm.components.schemas.DeterministicComm
+            required: false
+        Positioning:
+        # not supported in CTM
+            type: org.3gpp.nrm.components.schemas.Positioning
+            required: false
+        Synchronicity:
+        # not supported in CTM
+            type: org.3gpp.nrm.components.schemas.Synchronicity
+            required: false
+
+org.3gpp.nrm.components.schemas.CNSliceSubnetProfile:
+    derived_from: tosca.datatypes.Root
+    properties:
+        maxNumberofUEs:
+            type: integer
+            required: false
+        latency:
+            type: integer
+            required: false
+        dLThptPerSliceSubnet:
+            type: org.3gpp.nrm.components.schemas.XLThpt
+            required: false
+        dLThptPerUEPerSubnet:
+            type: org.3gpp.nrm.components.schemas.XLThpt
+            required: false
+        uLThptPerSliceSubnet:
+            type: org.3gpp.nrm.components.schemas.XLThpt
+            required: false
+        uLThptPerUEPerSubnet:
+            type: org.3gpp.nrm.components.schemas.XLThpt
+            required: false
+        maxNumberOfPDUSessions:
+            type: integer
+            required: false
+        coverageAreaTAList:
+            type: list
+            entry_schema: integer
+            required: false
+        resourceSharingLevel:
+            type: string
+            constraints:
+                - valid_values: [SHARED, NON-SHARED]
+            required: false
+        maxPktSize:
+            type: integer
+            required: false
+        sliceSimultaneousUse:
+            type: string
+            constraints:
+                - valid_values: [ZERO, ONE, TWO, THREE, FOUR]
+            required: false
+        delayTolerance:
+            type: org.3gpp.nrm.components.schemas.DelayTolerance
+            required: false
+        reliability:
+            type: string
+            required: false
+        energyEfficiency:
+        # not supported in CTM
+            type: integer
+            required: false
+        deterministicComm:
+        # not supported in CTM
+            type: org.3gpp.nrm.components.schemas.DeterministicComm
+            required: false
+
+# Ericsson types
+
+com.ericsson.so.datatypes.PlaybookInputs:
+  derived_from: tosca.datatypes.Root
+  properties:
+      extra-vars:
+          type: map
+          entry_schema: string
+          required: false
+      become: 
+          type: string
+          required: false
+      become_user:
+         type: string
+         required: false
+      additional_subsystems:
+          type: list
+          entry_schema: string
+          required: false
+      other-args:
+         type: map
+         entry_schema: string
+         required: false
+
+# ETSI NFV types
+
+tosca.datatypes.nfv.VnfOperationAdditionalParameters:
+  derived_from: tosca.datatypes.Root
+  description: Is an empty base type for deriving data type for describing VNF-specific parameters to be passed when invoking lifecycle management operations
+  # below description properties added as optional, since atleast one property required to define a dataType in SDC
+  properties:
+    description:
+      type: string
+      required: false
+
+tosca.dataTypes.tmf.milestoneJeopardyData:
+  derived_from: tosca.datatypes.Root
+  properties:
+    name:
+      type: string
+      required: true
+    message:
+      type: string
+      required: true
+    eventType:
+      type: string
+      required: true
+      valid_values: [milestone, jeopardy]
+    jeopardyType:
+      type: string
+      required: false
+      valid_values: [normal, critical, hazard]

@@ -1,0 +1,62 @@
+# TOSCA Simple Yaml Profile 1.3 types
+
+tosca.policies.Root:
+  description: The TOSCA Policy Type all other TOSCA Policy Types derive from
+tosca.policies.Placement:
+  derived_from: tosca.policies.Root
+  description: The TOSCA Policy Type definition that is used to govern placement of TOSCA nodes or groups of nodes.
+tosca.policies.Scaling:
+  derived_from: tosca.policies.Root
+  description: The TOSCA Policy Type definition that is used to govern scaling of TOSCA nodes or groups of nodes.
+tosca.policies.Update:
+  derived_from: tosca.policies.Root
+  description: The TOSCA Policy Type definition that is used to govern update of TOSCA nodes or groups of nodes.
+tosca.policies.Performance:
+  derived_from: tosca.policies.Root
+  description: The TOSCA Policy Type definition that is used to declare performance requirements for TOSCA nodes or groups of nodes.
+
+# Common Topology Model types
+
+topology.policies.NodePolicy:
+  derived_from: tosca.policies.Root
+  properties:
+    selectionOption:
+      type: string
+      required: false
+      constraints:
+        - valid_values: [ strict, any, lowestCost ]
+    instantiationCost:
+      type: float
+      required: false
+    consumptionCost:
+      type: float
+      required: false
+    branchingFactor:
+      type: integer
+      required: false
+    condition:
+      type: string
+      required: false
+    alternativeId:
+      type: string
+      required: false
+    forEachItemIn:
+      type: string
+      required: false
+    numberOfObjectsToFindForEachItem:
+      type: list
+      entry_schema:
+        type: string
+        constraints:
+          - valid_values: [ "0", "1", "UNBOUNDED" ]
+      required: false
+    retainUnused:
+      type: boolean
+      required: false
+  targets:
+    - topology.nodes.sdk.managedObject
+
+topology.policies.DistinctNodes:
+  derived_from: tosca.policies.Root
+  targets:
+    - topology.nodes.sdk.managedObject

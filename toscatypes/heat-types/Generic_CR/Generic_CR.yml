@@ -1,0 +1,11 @@
+tosca_definitions_version: tosca_simple_yaml_1_0_0
+node_types:
+  org.openecomp.resource.abstract.nodes.CR:
+    derived_from: tosca.nodes.Root
+    properties:
+      cr_function:
+        type: string
+      cr_role:
+        type: string
+      cr_type:
+        type: string

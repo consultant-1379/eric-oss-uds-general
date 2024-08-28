@@ -1,0 +1,7 @@
+org\onap\config\api\Config.class
+org\onap\config\api\JettySSLUtils.class
+org\onap\config\api\Hint.class
+org\onap\config\api\ConfigurationLoader.class
+org\onap\config\api\ConfigurationManager.class
+org\onap\config\api\Configuration.class
+org\onap\config\api\JettySSLUtils$JettySslConfig.class

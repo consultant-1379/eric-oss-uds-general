@@ -1,0 +1,384 @@
+services:
+  Mobility:
+    name: "Mobility"
+    icons: [ 'mobility' ]
+    models: [
+      "SDC AID"
+    ]
+  Network_L1_3:
+    name: "Network L1-3"
+    icons: [ 'network_l_1-3' ]
+    models: [
+      "SDC AID"
+    ]
+  Network_L4:
+    name: "Network L4+"
+    icons: [ 'network_l_4' ]
+    models: [
+      "SDC AID"
+    ]
+  VoIP_Call_Control:
+    name: "VoIP Call Control"
+    icons: [ 'call_controll' ]
+    models: [
+      "SDC AID"
+    ]
+  E2E_Service:
+    name: "E2E Service"
+    icons: [ 'network_l_1-3' ]
+    models: [
+      "SDC AID"
+    ]
+  Network_Service:
+    name: "Network Service"
+    icons: [ 'network_l_1-3' ]
+    models: [
+      "SDC AID"
+    ]
+  Partner_Domain_Service:
+    name: "Partner Domain Service"
+    icons: [ 'partner_domain_service' ]
+    models: [
+      "SDC AID"
+    ]
+  Ericsson_Orchestrator_Base_Service_Template_Distribution:
+    name: "Ericsson Orchestrator Base Service Template Distribution"
+    icons: [ 'network_l_1-3' ]
+    models: [
+      "SDC AID"
+    ]
+    metadataKeys:
+      orderable:
+        name: "orderable"
+        validValues: [ true, false ]
+        mandatory: false
+  Ericsson_Orchestrator_Compound_Service_Template:
+    name: "Ericsson Orchestrator Compound Service Template"
+    icons: [ 'network_l_1-3' ]
+    models: [
+      "SDC AID"
+    ]
+    metadataKeys:
+      orderable:
+        name: "orderable"
+        validValues: [ true, false ]
+        mandatory: false
+  ETSI_NFV_Network_Service:
+    name: "ETSI NFV Network Service"
+    icons: [ 'etsi_nfv_network_service' ]
+    metadataKeys:
+      etsiVersion:
+        name: "ETSI Version"
+        validValues: [ '3.3.1', '2.7.1', '2.5.1' ]
+        default: '2.5.1'
+        mandatory: true
+    models: [
+      "SDC AID"
+    ]
+  ETSI_NFV_Network_Service_For_ETSI_Model:
+    name: "ETSI NFV Network Service For ETSI Model"
+    displayName: "ETSI NFV Network Service"
+    icons: [ 'etsi_nfv_network_service' ]
+    notApplicableMetadataKeys: [
+      "Service Type",
+      "Service Role",
+      "Service Function"
+    ]
+    models: [
+      "ETSI SOL001 v2.5.1"
+    ]
+  Vnf_Distribution:
+    name: "Ericsson Orchestrator VNF Distribution"
+    icons: [ 'network_l_1-3' ]
+    metadataKeys:
+      vnfManagerId:
+        name: "vnfManagerId"
+        displayName: "VNF Manager ID"
+      packageFormat:
+        name: "packageFormat"
+        displayName: "Package Format"
+        validValues: [ 'ETSI TOSCA CNF', 'ETSI TOSCA VNF', 'TOSCA CNF', 'TOSCA VNF', 'EXTERNAL_FORMAT' ]
+        mandatory: false
+    notApplicableMetadataKeys: [
+      "Service Type",
+      "Service Role",
+      "Service Function"
+    ]
+    models: [
+      "ETSI SOL001 v2.5.1",
+      "SDC AID"
+    ]
+  Ericsson_Orchestrator_Service_Template:
+    name: "Ericsson Orchestrator Service Template"
+    icons: [ 'network_l_1-3' ]
+    useServiceSubstitutionForNestedServices: true
+    metadataKeys:
+      resourceSharingLevel:
+        name: "resourceSharingLevel"
+        validValues: [ 'Shared', 'NonShared' ]
+      orderable:
+        name: "orderable"
+        validValues: [ true, false ]
+        mandatory: false
+    models: [
+      "EO-CTM",
+      "SDC AID"
+    ]
+  Ericsson_Orchestrator_NSST_as_a_slice profile:
+    name: "Ericsson Orchestrator NSST as a slice profile"
+    icons: [ 'network_l_1-3' ]
+    useServiceSubstitutionForNestedServices: true
+    metadataKeys:
+      serviceRole:
+        name: "Service Role"
+        validValues: [ 'NSSI' ]
+        default: 'NSSI'
+        mandatory: true
+      serviceFunction:
+        name: "Service Function"
+        validValues: [ 'RAN', 'Core', 'Transport' ]
+        mandatory: true
+      resourceSharingLevel:
+        name: "resourceSharingLevel"
+        validValues: [ 'Shared', 'NonShared' ]
+        default: 'NonShared'
+        mandatory: true
+      orderable:
+        name: "orderable"
+        validValues: [ true, false ]
+        mandatory: false
+    models: [
+      "SDC AID"
+    ]
+  Ericsson_Orchestrator_NSST:
+    name: "Ericsson Orchestrator NSST"
+    icons: [ 'network_l_1-3' ]
+    useServiceSubstitutionForNestedServices: true
+    metadataKeys:
+      serviceRole:
+        name: "Service Role"
+        validValues: [ 'CST', 'NSI', 'NSSI', 'UPF' ]
+        default: 'NSSI'
+        mandatory: true
+      serviceFunction:
+        name: "Service Function"
+        validValues: [ 'RAN', 'Core', 'Transport', 'User_Defined', 'Allocate APN IP pool', 'MANAGE UPF',  'SMF MANAGE', 'PCF' ]
+        mandatory: true
+      resourceSharingLevel:
+        name: "resourceSharingLevel"
+        validValues: [ 'Shared', 'NonShared' ]
+        default: 'NonShared'
+        mandatory: true
+      orderable:
+        name: "orderable"
+        validValues: [ true, false ]
+        mandatory: false
+      includeFindsSEconnRules:
+        name: "includeFindsSEconnRules"
+        displayName: "Include SE Connectivity Rules"
+        validValues: [ true, false ]
+        mandatory: false
+      reloadNodesOnGetServiceInstance:
+        name: "reloadNodesOnGetServiceInstance"
+        displayName: "Reload Nodes on Get Service Instance"
+        validValues: [ true, false ]
+        mandatory: false
+    models: [
+      "EO-CTM"
+    ]
+  Ericsson_Orchestrator_Slice_Profile_Config:
+    name: "Ericsson Orchestrator Slice Profile Config"
+    icons: [ 'network_l_1-3' ]
+    useServiceSubstitutionForNestedServices: true
+    metadataKeys:
+      serviceRole:
+        name: "Service Role"
+        validValues: [ 'SliceProfile' ]
+        default: 'SliceProfile'
+        mandatory: true
+      serviceFunction:
+        name: "Service Function"
+        validValues: [ 'RAN', 'Core' ]
+        mandatory: true
+    models: [
+      "EO-CTM"
+    ]
+  Composite Service Specification:
+    name: "Composite Service Specification"
+    icons: [ 'network_l_1-3' ]
+    useServiceSubstitutionForNestedServices: true
+    metadataKeys:
+      orderable:
+        name: "orderable"
+        validValues: [ true, false ]
+        default: 'true'
+        mandatory: true
+    models: [
+      "EO-CTM"
+    ]
+resources:
+  Ericsson Orchestrator:
+    name: "Ericsson Orchestrator"
+    subcategories:
+      Base Service:
+        name: "Base Service"
+        icons: [ 'network' ]
+        metadataKeys:
+          serviceType:
+            name: "serviceType"
+          resourceSharingLevel:
+            name: "resourceSharingLevel"
+            validValues: [ 'Shared', 'NonShared' ]
+  NetworkLayer23:
+    name: "Network L2-3"
+    subcategories:
+      Router:
+        name: "Router"
+        icons: [ 'router','vRouter' ]
+      Gateway:
+        name: "Gateway"
+        icons: [ 'gateway' ]
+      WAN_Connectors:
+        name: "WAN Connectors"
+        icons: [ 'network','connector','port' ]
+      LAN_Connectors:
+        name: "LAN Connectors"
+        icons: [ 'network','connector','port' ]
+      Infrastructure:
+        name: "Infrastructure"
+        icons: [ 'ucpe' ]
+  NetworkLayer4:
+    name: "Network L4+"
+    subcategories:
+      Common_Network_Resources:
+        name: "Common Network Resources"
+        icons: [ 'network' ]
+  ApplicationLayer4:
+    name: "Application L4+"
+    subcategories:
+      Border_Element:
+        name: "Border Element"
+        icons: [ 'borderElement' ]
+      Application_Server:
+        name: "Application Server"
+        icons: [ 'applicationServer' ]
+      Web_Server:
+        name: "Web Server"
+        icons: [ 'applicationServer' ]
+      Call_Control:
+        name: "Call Control"
+        icons: [ 'call_controll' ]
+      Media_Servers:
+        name: "Media Servers"
+        icons: [ 'applicationServer' ]
+      Load_Balancer:
+        name: "Load Balancer"
+        icons: [ 'loadBalancer' ]
+      Database:
+        name: "Database"
+        icons: [ 'database' ]
+      Firewall:
+        name: "Firewall"
+        icons: [ 'firewall' ]
+  Generic:
+    name: "Generic"
+    subcategories:
+      Infrastructure:
+        name: "Infrastructure"
+        icons: [ 'connector' ]
+      Abstract:
+        name: "Abstract"
+        icons: [ 'objectStorage', 'compute' ]
+      Network_Elements:
+        name: "Network Elements"
+        icons: [ 'network', 'connector' ]
+      Database:
+        name: "Database"
+        icons: [ 'database' ]
+      Rules:
+        name: "Rules"
+        icons: [ 'networkrules','securityrules' ]
+      NetworkService:
+        name: "Network Service"
+        icons: [ 'network' ]
+  NetworkConnectivity:
+    name: "Network Connectivity"
+    subcategories:
+      ConnectionPoints:
+        name: "Connection Points"
+        icons: [ 'cp' ]
+      VirtualLinks:
+        name: "Virtual Links"
+        icons: [ 'vl' ]
+  Configuration:
+    name: "Configuration"
+    subcategories:
+      Configuraion:
+        name: "Configuration"
+        icons: [ 'pmc' ]
+  DcaeComponent:
+    name: "DCAE Component"
+    subcategories:
+      Source:
+        name: "Source"
+        icons: [ 'dcae_source' ]
+      Collector:
+        name: "Collector"
+        icons: [ 'dcae_collector' ]
+      Utility:
+        name: "Utility"
+        icons: [ 'dcae_utilty' ]
+      Microservice:
+        name: "Microservice"
+        icons: [ 'dcae_microservice' ]
+      Analytics:
+        name: "Analytics"
+        icons: [ 'dcae_analytics' ]
+      Database:
+        name: "Database"
+        icons: [ 'dcae_database' ]
+      Policy:
+        name: "Policy"
+        icons: [ 'dcae_policy' ]
+      MachineLearning:
+        name: "Machine Learning"
+        icons: [ 'dcae_machineLearning' ]
+  Template:
+    name: "Template"
+    subcategories:
+      BaseMonitoringTemplate:
+        name: "Base Monitoring Template"
+        icons: [ 'monitoring_template' ]
+      MonitoringTemplate:
+        name: "Monitoring Template"
+        icons: [ 'monitoring_template' ]
+  AllottedResource:
+    name: "Allotted Resource"
+    subcategories:
+      AllottedResource:
+        name: "Allotted Resource"
+        icons: [ 'allotted_resource' ]
+      TunnelXConnect:
+        name: "TunnelXConn"
+        icons: [ 'tunnel_x_connect' ]
+      BRG:
+        name: "BRG"
+        icons: [ 'brg' ]
+      IpMuxDemux:
+        name: "IP Mux Demux"
+        icons: [ 'ip_mux_demux' ]
+      ServiceAdmin:
+        name: "Service Admin"
+        icons: [ 'service_admin' ]
+      ContrailRoute:
+        name: "Contrail Route"
+        icons: [ 'contrail_route' ]
+      SecurityZone:
+        name: "Security Zone"
+        icons: [ 'security_zone' ]
+  Ericsson Catalog Manager:
+    name: "Ericsson Catalog Manager"
+    subcategories:
+      Atomic Specification:
+        name: "Atomic Specification"
+        icons: [ 'allotted_resource' ]

@@ -1,0 +1,3901 @@
+{
+  "nodeMetadataList": [
+    {
+      "toscaName": "tosca.nodes.Root",
+      "contactId": "jh0003",
+      "name": "TOSCA root",
+      "model": "EO-CTM",
+      "description": "Represents a generic software component that can be managed and run by a Compute Node Type.",
+      "resourceIconPath": "defaulticon",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Abstract"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "TOSCA root"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.Root",
+      "contactId": "jh0003",
+      "name": "Root",
+      "model": "EO-CTM",
+      "description": "root",
+      "resourceIconPath": "defaulticon",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Abstract"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "Root"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.sdk.managedObject",
+      "contactId": "jh0003",
+      "name": "managedObject",
+      "model": "EO-CTM",
+      "description": "managedObject.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "managedObject"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.qosProfile",
+      "contactId": "jh0003",
+      "name": "qosProfile",
+      "model": "EO-CTM",
+      "description": "qosProfile.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "qosProfile"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.rRMPolicyMember",
+      "contactId": "jh0003",
+      "name": "rRMPolicyMember",
+      "model": "EO-CTM",
+      "description": "rRMPolicyMember.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "rRMPolicyMember"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.rRMPolicyRatio",
+      "contactId": "jh0003",
+      "name": "rRMPolicyRatio",
+      "model": "EO-CTM",
+      "description": "rRMPolicyRatio.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "rRMPolicyRatio"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.fiveQISet",
+      "contactId": "jh0003",
+      "name": "fiveQISet",
+      "model": "EO-CTM",
+      "description": "fiveQISet.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "fiveQISet"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.fiveQIFlow",
+      "contactId": "jh0003",
+      "name": "fiveQIFlow",
+      "model": "EO-CTM",
+      "description": "fiveQIFlow.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "fiveQIFlow"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.activeUsersSession",
+      "contactId": "jh0003",
+      "name": "activeUsersSession",
+      "model": "EO-CTM",
+      "description": "activeUsersSession.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "activeUsersSession"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.alert",
+      "contactId": "jh0003",
+      "name": "alert",
+      "model": "EO-CTM",
+      "description": "alert.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "alert"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.appender",
+      "contactId": "jh0003",
+      "name": "appender",
+      "model": "EO-CTM",
+      "description": "appender.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "appender"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.consoleAppender",
+      "contactId": "jh0003",
+      "name": "consoleAppender",
+      "model": "EO-CTM",
+      "description": "consoleAppender.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "consoleAppender"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.application",
+      "contactId": "jh0003",
+      "name": "application",
+      "model": "EO-CTM",
+      "description": "application.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "application"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.attachment",
+      "contactId": "jh0003",
+      "name": "attachment",
+      "model": "EO-CTM",
+      "description": "attachment.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.auditTrail",
+      "contactId": "jh0003",
+      "name": "auditTrail",
+      "model": "EO-CTM",
+      "description": "auditTrail.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "auditTrail"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.bindingPathDefinition",
+      "contactId": "jh0003",
+      "name": "bindingPathDefinition",
+      "model": "EO-CTM",
+      "description": "bindingPathDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "bindingPathDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocbpm.bpmProcessDefinition",
+      "contactId": "jh0003",
+      "name": "bpmProcessDefinition",
+      "model": "EO-CTM",
+      "description": "bpmProcessDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "bpmProcessDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.obl.bulkLoadObjectRulesDefinition",
+      "contactId": "jh0003",
+      "name": "bulkLoadObjectRulesDefinition",
+      "model": "EO-CTM",
+      "description": "bulkLoadObjectRulesDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "bulkLoadObjectRulesDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.computedAttributeDefinition",
+      "contactId": "jh0003",
+      "name": "computedAttributeDefinition",
+      "model": "EO-CTM",
+      "description": "computedAttributeDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "computedAttributeDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.configurationProperty",
+      "contactId": "jh0003",
+      "name": "configurationProperty",
+      "model": "EO-CTM",
+      "description": "configurationProperty.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "configurationProperty"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.databaseRegistry",
+      "contactId": "jh0003",
+      "name": "databaseRegistry",
+      "model": "EO-CTM",
+      "description": "databaseRegistry.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "databaseRegistry"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.ddRestriction",
+      "contactId": "jh0003",
+      "name": "ddRestriction",
+      "model": "EO-CTM",
+      "description": "ddRestriction.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ddRestriction"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.domain",
+      "contactId": "jh0003",
+      "name": "domain",
+      "model": "EO-CTM",
+      "description": "domain.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "domain"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.domainGroup",
+      "contactId": "jh0003",
+      "name": "domainGroup",
+      "model": "EO-CTM",
+      "description": "domainGroup.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "domainGroup"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.dtDefinition",
+      "contactId": "jh0003",
+      "name": "dtDefinition",
+      "model": "EO-CTM",
+      "description": "dtDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "dtDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.dtRulesDefinition",
+      "contactId": "jh0003",
+      "name": "dtRulesDefinition",
+      "model": "EO-CTM",
+      "description": "dtRulesDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "dtRulesDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.dynamicAttributeDefinition",
+      "contactId": "jh0003",
+      "name": "dynamicAttributeDefinition",
+      "model": "EO-CTM",
+      "description": "dynamicAttributeDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "dynamicAttributeDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.dynamicAttributeGroupDefinition",
+      "contactId": "jh0003",
+      "name": "dynamicAttributeGroupDefinition",
+      "model": "EO-CTM",
+      "description": "dynamicAttributeGroupDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "dynamicAttributeGroupDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.dynamicAttributeGroupDefinitionObjectTypeMap",
+      "contactId": "jh0003",
+      "name": "dynamicAttributeGroupDefinitionObjectTypeMap",
+      "model": "EO-CTM",
+      "description": "dynamicAttributeGroupDefinitionObjectTypeMap.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "dynamicAttributeGroupDefinitionObjectTypeMap"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ond.esdData",
+      "contactId": "jh0003",
+      "name": "esdData",
+      "model": "EO-CTM",
+      "description": "esdData.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "esdData"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.floorPlan",
+      "contactId": "jh0003",
+      "name": "floorPlan",
+      "model": "EO-CTM",
+      "description": "floorPlan.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "floorPlan"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.floorPlanParticipant",
+      "contactId": "jh0003",
+      "name": "floorPlanParticipant",
+      "model": "EO-CTM",
+      "description": "floorPlanParticipant.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "floorPlanParticipant"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.fsConfiguration",
+      "contactId": "jh0003",
+      "name": "fsConfiguration",
+      "model": "EO-CTM",
+      "description": "fsConfiguration.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "fsConfiguration"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.gauge",
+      "contactId": "jh0003",
+      "name": "gauge",
+      "model": "EO-CTM",
+      "description": "gauge.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "gauge"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ondt.genericNode",
+      "contactId": "jh0003",
+      "name": "genericNode",
+      "model": "EO-CTM",
+      "description": "genericNode.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "genericNode"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.impactAnalysisReportDefinition",
+      "contactId": "jh0003",
+      "name": "impactAnalysisReportDefinition",
+      "model": "EO-CTM",
+      "description": "impactAnalysisReportDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "impactAnalysisReportDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.impactedObjectDefinition",
+      "contactId": "jh0003",
+      "name": "impactedObjectDefinition",
+      "model": "EO-CTM",
+      "description": "impactedObjectDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "impactedObjectDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ond.invocationSnapshot",
+      "contactId": "jh0003",
+      "name": "invocationSnapshot",
+      "model": "EO-CTM",
+      "description": "invocationSnapshot.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "invocationSnapshot"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ipm.ipAddressMapping",
+      "contactId": "jh0003",
+      "name": "ipAddressMapping",
+      "model": "EO-CTM",
+      "description": "ipAddressMapping.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ipAddressMapping"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ipm.ipamObject",
+      "contactId": "jh0003",
+      "name": "ipamObject",
+      "model": "EO-CTM",
+      "description": "ipamObject.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ipamObject"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ojm.job",
+      "contactId": "jh0003",
+      "name": "job",
+      "model": "EO-CTM",
+      "description": "job.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "job"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ojm.jobData",
+      "contactId": "jh0003",
+      "name": "jobData",
+      "model": "EO-CTM",
+      "description": "jobData.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "jobData"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.obl.jobReport",
+      "contactId": "jh0003",
+      "name": "jobReport",
+      "model": "EO-CTM",
+      "description": "jobReport.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "jobReport"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.knowledgeBase",
+      "contactId": "jh0003",
+      "name": "knowledgeBase",
+      "model": "EO-CTM",
+      "description": "knowledgeBase.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "knowledgeBase"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.logger",
+      "contactId": "jh0003",
+      "name": "logger",
+      "model": "EO-CTM",
+      "description": "logger.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "logger"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.loggingConfiguration",
+      "contactId": "jh0003",
+      "name": "loggingConfiguration",
+      "model": "EO-CTM",
+      "description": "loggingConfiguration.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "loggingConfiguration"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.message",
+      "contactId": "jh0003",
+      "name": "message",
+      "model": "EO-CTM",
+      "description": "message.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "message"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.osnm.number",
+      "contactId": "jh0003",
+      "name": "number",
+      "model": "EO-CTM",
+      "description": "number.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.osnm.numberRange",
+      "contactId": "jh0003",
+      "name": "numberRange",
+      "model": "EO-CTM",
+      "description": "numberRange.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "numberRange"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctg.party",
+      "contactId": "jh0003",
+      "name": "party",
+      "model": "EO-CTM",
+      "description": "party.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "party"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.permission",
+      "contactId": "jh0003",
+      "name": "permission",
+      "model": "EO-CTM",
+      "description": "permission.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "permission"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.perspectiveRoleMapping",
+      "contactId": "jh0003",
+      "name": "perspectiveRoleMapping",
+      "model": "EO-CTM",
+      "description": "perspectiveRoleMapping.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "perspectiveRoleMapping"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.perspMsgMapping",
+      "contactId": "jh0003",
+      "name": "perspMsgMapping",
+      "model": "EO-CTM",
+      "description": "perspMsgMapping.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "perspMsgMapping"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.picklistDefinition",
+      "contactId": "jh0003",
+      "name": "picklistDefinition",
+      "model": "EO-CTM",
+      "description": "picklistDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "picklistDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.picklistEntry",
+      "contactId": "jh0003",
+      "name": "picklistEntry",
+      "model": "EO-CTM",
+      "description": "picklistEntry.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "picklistEntry"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctg.place",
+      "contactId": "jh0003",
+      "name": "place",
+      "model": "EO-CTM",
+      "description": "place.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctg.geographicSite",
+      "contactId": "jh0003",
+      "name": "geographicSite",
+      "model": "EO-CTM",
+      "description": "geographicSite.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "geographicSite"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.pluginScripts",
+      "contactId": "jh0003",
+      "name": "pluginScripts",
+      "model": "EO-CTM",
+      "description": "pluginScripts.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "pluginScripts"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocp.project",
+      "contactId": "jh0003",
+      "name": "project",
+      "model": "EO-CTM",
+      "description": "project.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocp.projectType",
+      "contactId": "jh0003",
+      "name": "projectType",
+      "model": "EO-CTM",
+      "description": "projectType.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "projectType"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ond.provisioningRequest",
+      "contactId": "jh0003",
+      "name": "provisioningRequest",
+      "model": "EO-CTM",
+      "description": "provisioningRequest.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "provisioningRequest"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.queryDefinition",
+      "contactId": "jh0003",
+      "name": "queryDefinition",
+      "model": "EO-CTM",
+      "description": "queryDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "queryDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctg.relatedParty",
+      "contactId": "jh0003",
+      "name": "relatedParty",
+      "model": "EO-CTM",
+      "description": "relatedParty.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "relatedParty"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.replicationRequest",
+      "contactId": "jh0003",
+      "name": "replicationRequest",
+      "model": "EO-CTM",
+      "description": "replicationRequest.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "replicationRequest"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.resource",
+      "contactId": "jh0003",
+      "name": "resource",
+      "model": "EO-CTM",
+      "description": "resource.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "resource"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.resourcePartitionMember",
+      "contactId": "jh0003",
+      "name": "resourcePartitionMember",
+      "model": "EO-CTM",
+      "description": "resourcePartitionMember.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "resourcePartitionMember"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.resourcePartitionSet",
+      "contactId": "jh0003",
+      "name": "resourcePartitionSet",
+      "model": "EO-CTM",
+      "description": "resourcePartitionSet.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "resourcePartitionSet"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.resourcePartition",
+      "contactId": "jh0003",
+      "name": "resourcePartition",
+      "model": "EO-CTM",
+      "description": "resourcePartition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "resourcePartition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocrs.resourceFacingService",
+      "contactId": "jh0003",
+      "name": "resourceFacingService",
+      "model": "EO-CTM",
+      "description": "resourceFacingService.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "resourceFacingService"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.connectivity",
+      "contactId": "jh0003",
+      "name": "connectivity",
+      "model": "EO-CTM",
+      "description": "connectivity.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.link",
+      "contactId": "jh0003",
+      "name": "link",
+      "model": "EO-CTM",
+      "description": "link.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "link"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3IpLink",
+      "contactId": "jh0003",
+      "name": "l3IpLink",
+      "model": "EO-CTM",
+      "description": "l3IpLink.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3IpLink"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.topologyContainer",
+      "contactId": "jh0003",
+      "name": "topologyContainer",
+      "model": "EO-CTM",
+      "description": "topologyContainer.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "topologyContainer"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.logicalResource",
+      "contactId": "jh0003",
+      "name": "logicalResource",
+      "model": "EO-CTM",
+      "description": "logicalResource.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "logicalResource"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.forwardingConstruct",
+      "contactId": "jh0003",
+      "name": "forwardingConstruct",
+      "model": "EO-CTM",
+      "description": "forwardingConstruct.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "forwardingConstruct"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.role",
+      "contactId": "jh0003",
+      "name": "role",
+      "model": "EO-CTM",
+      "description": "role.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "role"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.terminationPoint",
+      "contactId": "jh0003",
+      "name": "terminationPoint",
+      "model": "EO-CTM",
+      "description": "terminationPoint.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "terminationPoint"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.logicalTerminationPoint",
+      "contactId": "jh0003",
+      "name": "logicalTerminationPoint",
+      "model": "EO-CTM",
+      "description": "logicalTerminationPoint.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "logicalTerminationPoint"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3LogicalTerminationPoint",
+      "contactId": "jh0003",
+      "name": "l3LogicalTerminationPoint",
+      "model": "EO-CTM",
+      "description": "l3LogicalTerminationPoint.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3LogicalTerminationPoint"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.layerProtocol",
+      "contactId": "jh0003",
+      "name": "layerProtocol",
+      "model": "EO-CTM",
+      "description": "layerProtocol.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "layerProtocol"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3IpInterface",
+      "contactId": "jh0003",
+      "name": "l3IpInterface",
+      "model": "EO-CTM",
+      "description": "l3IpInterface.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3IpInterface"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ond.scDefinition",
+      "contactId": "jh0003",
+      "name": "scDefinition",
+      "model": "EO-CTM",
+      "description": "scDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "scDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ond.scDefinitionBundle",
+      "contactId": "jh0003",
+      "name": "scDefinitionBundle",
+      "model": "EO-CTM",
+      "description": "scDefinitionBundle.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "scDefinitionBundle"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocrs.serviceMembership",
+      "contactId": "jh0003",
+      "name": "serviceMembership",
+      "model": "EO-CTM",
+      "description": "serviceMembership.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "serviceMembership"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.serviceTransformerRouteConfig",
+      "contactId": "jh0003",
+      "name": "serviceTransformerRouteConfig",
+      "model": "EO-CTM",
+      "description": "serviceTransformerRouteConfig.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "serviceTransformerRouteConfig"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.servicePolicy",
+      "contactId": "jh0003",
+      "name": "servicePolicy",
+      "model": "EO-CTM",
+      "description": "servicePolicy.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "servicePolicy"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.sliceProfile",
+      "contactId": "jh0003",
+      "name": "sliceProfile",
+      "model": "EO-CTM",
+      "description": "sliceProfile.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "sliceProfile"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.stateMachineDefinitionHolder",
+      "contactId": "jh0003",
+      "name": "stateMachineDefinitionHolder",
+      "model": "EO-CTM",
+      "description": "stateMachineDefinitionHolder.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "stateMachineDefinitionHolder"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.subsystemRef",
+      "contactId": "jh0003",
+      "name": "subsystemRef",
+      "model": "EO-CTM",
+      "description": "subsystemRef.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "subsystemRef"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.templateToTemplateData",
+      "contactId": "jh0003",
+      "name": "templateToTemplateData",
+      "model": "EO-CTM",
+      "description": "templateToTemplateData.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "templateToTemplateData"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.user",
+      "contactId": "jh0003",
+      "name": "user",
+      "model": "EO-CTM",
+      "description": "user.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "user"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.userDbRoleMap",
+      "contactId": "jh0003",
+      "name": "userDbRoleMap",
+      "model": "EO-CTM",
+      "description": "userDbRoleMap.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "userDbRoleMap"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocf.xsd",
+      "contactId": "jh0003",
+      "name": "xsd",
+      "model": "EO-CTM",
+      "description": "xsd.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "xsd"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.virtNetworkServ",
+      "contactId": "jh0003",
+      "name": "virtNetworkServ",
+      "model": "EO-CTM",
+      "description": "virtNetworkServ.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "virtNetworkServ"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.wirelessNetFunction",
+      "contactId": "jh0003",
+      "name": "wirelessNetFunction",
+      "model": "EO-CTM",
+      "description": "wirelessNetFunction.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "wirelessNetFunction"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.ngRanNode",
+      "contactId": "jh0003",
+      "name": "ngRanNode",
+      "model": "EO-CTM",
+      "description": "ngRanNode.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ngRanNode"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.gnbcuup",
+      "contactId": "jh0003",
+      "name": "gnbcuup",
+      "model": "EO-CTM",
+      "description": "gnbcuup.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "gnbcuup"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.pod",
+      "contactId": "jh0003",
+      "name": "pod",
+      "model": "EO-CTM",
+      "description": "pod.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "pod"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.controllerFunction",
+      "contactId": "jh0003",
+      "name": "controllerFunction",
+      "model": "EO-CTM",
+      "description": "controllerFunction.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "controllerFunction"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.vrm",
+      "contactId": "jh0003",
+      "name": "vrm",
+      "model": "EO-CTM",
+      "description": "vrm.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "vrm"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctg.organization",
+      "contactId": "jh0003",
+      "name": "organization",
+      "model": "EO-CTM",
+      "description": "organization.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "organization"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.ngCoreNetFunction",
+      "contactId": "jh0003",
+      "name": "ngCoreNetFunction",
+      "model": "EO-CTM",
+      "description": "ngCoreNetFunction.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ngCoreNetFunction"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.amf",
+      "contactId": "jh0003",
+      "name": "amf",
+      "model": "EO-CTM",
+      "description": "amf.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "amf"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.topologyDomain",
+      "contactId": "jh0003",
+      "name": "topologyDomain",
+      "model": "EO-CTM",
+      "description": "topologyDomain.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "topologyDomain"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.nrf",
+      "contactId": "jh0003",
+      "name": "nrf",
+      "model": "EO-CTM",
+      "description": "nrf.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "nrf"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctg.geographicLocation",
+      "contactId": "jh0003",
+      "name": "geographicLocation",
+      "model": "EO-CTM",
+      "description": "geographicLocation.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "geographicLocation"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.ausf",
+      "contactId": "jh0003",
+      "name": "ausf",
+      "model": "EO-CTM",
+      "description": "ausf.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ausf"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.adjacency",
+      "contactId": "jh0003",
+      "name": "adjacency",
+      "model": "EO-CTM",
+      "description": "Adjacency.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "adjacency"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.linkEndPoint",
+      "contactId": "jh0003",
+      "name": "linkEndPoint",
+      "model": "EO-CTM",
+      "description": "linkEndPoint.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "linkEndPoint"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3IpServiceLinkEP",
+      "contactId": "jh0003",
+      "name": "l3IpServiceLinkEP",
+      "model": "EO-CTM",
+      "description": "l3IpServiceLinkEP.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3IpServiceLinkEP"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.upf",
+      "contactId": "jh0003",
+      "name": "upf",
+      "model": "EO-CTM",
+      "description": "upf.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "upf"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.networkSliceSubnet",
+      "contactId": "jh0003",
+      "name": "networkSliceSubnet",
+      "model": "EO-CTM",
+      "description": "networkSliceSubnet.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "networkSliceSubnet"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.networkSlice",
+      "contactId": "jh0003",
+      "name": "networkSlice",
+      "model": "EO-CTM",
+      "description": "networkSlice.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "networkSlice"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.netFunctionCon",
+      "contactId": "jh0003",
+      "name": "netFunctionCon",
+      "model": "EO-CTM",
+      "description": "netFunctionCon.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "netFunctionCon"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.dailyRollingFileAppender",
+      "contactId": "jh0003",
+      "name": "dailyRollingFileAppender",
+      "model": "EO-CTM",
+      "description": "dailyRollingFileAppender.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "dailyRollingFileAppender"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ipm.ipNetwork",
+      "contactId": "jh0003",
+      "name": "ipNetwork",
+      "model": "EO-CTM",
+      "description": "ipNetwork.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ipNetwork"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.gnbcucp",
+      "contactId": "jh0003",
+      "name": "gnbcucp",
+      "model": "EO-CTM",
+      "description": "gnbcucp.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "gnbcucp"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3ForwardingConstruct",
+      "contactId": "jh0003",
+      "name": "l3ForwardingConstruct",
+      "model": "EO-CTM",
+      "description": "l3ForwardingConstruct.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3ForwardingConstruct"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.routingContext",
+      "contactId": "jh0003",
+      "name": "routingContext",
+      "model": "EO-CTM",
+      "description": "routingContext.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "routingContext"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.availabilityZone",
+      "contactId": "jh0003",
+      "name": "availabilityZone",
+      "model": "EO-CTM",
+      "description": "availabilityZone.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "availabilityZone"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.gnbdu",
+      "contactId": "jh0003",
+      "name": "gnbdu",
+      "model": "EO-CTM",
+      "description": "gnbdu.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "gnbdu"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.cismCluster",
+      "contactId": "jh0003",
+      "name": "cismCluster",
+      "model": "EO-CTM",
+      "description": "cismCluster.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "cismCluster"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.entityCollection",
+      "contactId": "jh0003",
+      "name": "entityCollection",
+      "model": "EO-CTM",
+      "description": "entityCollection.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "entityCollection"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.oaf.rollingFileAppender",
+      "contactId": "jh0003",
+      "name": "rollingFileAppender",
+      "model": "EO-CTM",
+      "description": "rollingFileAppender.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "rollingFileAppender"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.vimZone",
+      "contactId": "jh0003",
+      "name": "vimZone",
+      "model": "EO-CTM",
+      "description": "vimZone.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "vimZone"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.hostedFunction",
+      "contactId": "jh0003",
+      "name": "hostedFunction",
+      "model": "EO-CTM",
+      "description": "hostedFunction.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "hostedFunction"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.vnfc",
+      "contactId": "jh0003",
+      "name": "vnfc",
+      "model": "EO-CTM",
+      "description": "vnfc.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "vnfc"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.fcEndPoint",
+      "contactId": "jh0003",
+      "name": "fcEndPoint",
+      "model": "EO-CTM",
+      "description": "fcEndPoint.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "fcEndPoint"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.nssf",
+      "contactId": "jh0003",
+      "name": "nssf",
+      "model": "EO-CTM",
+      "description": "nssf.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "nssf"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.ipDomain",
+      "contactId": "jh0003",
+      "name": "ipDomain",
+      "model": "EO-CTM",
+      "description": "ipDomain.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ipDomain"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3IpLinkEP",
+      "contactId": "jh0003",
+      "name": "l3IpLinkEP",
+      "model": "EO-CTM",
+      "description": "l3IpLinkEP.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3IpLinkEP"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ipm.ipRange",
+      "contactId": "jh0003",
+      "name": "ipRange",
+      "model": "EO-CTM",
+      "description": "ipRange.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ipRange"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ipm.ipAddress",
+      "contactId": "jh0003",
+      "name": "ipAddress",
+      "model": "EO-CTM",
+      "description": "ipAddress.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ipAddress"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.af",
+      "contactId": "jh0003",
+      "name": "af",
+      "model": "EO-CTM",
+      "description": "af.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "af"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3TunnelEP",
+      "contactId": "jh0003",
+      "name": "l3TunnelEP",
+      "model": "EO-CTM",
+      "description": "l3TunnelEP.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3TunnelEP"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.container",
+      "contactId": "jh0003",
+      "name": "container",
+      "model": "EO-CTM",
+      "description": "container.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "container"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3Adjacency",
+      "contactId": "jh0003",
+      "name": "l3Adjacency",
+      "model": "EO-CTM",
+      "description": "l3Adjacency.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3Adjacency"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.vnf",
+      "contactId": "jh0003",
+      "name": "vnf",
+      "model": "EO-CTM",
+      "description": "vnf.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "vnf"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.wirelessNetwork",
+      "contactId": "jh0003",
+      "name": "wirelessNetwork",
+      "model": "EO-CTM",
+      "description": "wirelessNetwork.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "wirelessNetwork"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctv.virtualMachine",
+      "contactId": "jh0003",
+      "name": "virtualMachine",
+      "model": "EO-CTM",
+      "description": "virtualMachine.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "virtualMachine"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.ipProtocol",
+      "contactId": "jh0003",
+      "name": "ipProtocol",
+      "model": "EO-CTM",
+      "description": "ipProtocol.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "ipProtocol"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.udm",
+      "contactId": "jh0003",
+      "name": "udm",
+      "model": "EO-CTM",
+      "description": "udm.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "udm"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.pcf",
+      "contactId": "jh0003",
+      "name": "pcf",
+      "model": "EO-CTM",
+      "description": "pcf.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "pcf"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3Tunnel",
+      "contactId": "jh0003",
+      "name": "l3Tunnel",
+      "model": "EO-CTM",
+      "description": "l3Tunnel.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3Tunnel"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.smf",
+      "contactId": "jh0003",
+      "name": "smf",
+      "model": "EO-CTM",
+      "description": "smf.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "smf"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3IpServiceLink",
+      "contactId": "jh0003",
+      "name": "l3IpServiceLink",
+      "model": "EO-CTM",
+      "description": "l3IpServiceLink.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3IpServiceLink"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctl3.l3Node",
+      "contactId": "jh0003",
+      "name": "l3Node",
+      "model": "EO-CTM",
+      "description": "l3Node.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "l3Node"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.wirelessRan",
+      "contactId": "jh0003",
+      "name": "wirelessRan",
+      "model": "EO-CTM",
+      "description": "wirelessRan.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "wirelessRan"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.rfCell",
+      "contactId": "jh0003",
+      "name": "rfCell",
+      "model": "EO-CTM",
+      "description": "rfCell.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "rfCell"
+      ]
+    },
+        {
+      "toscaName": "topology.nodes.ctw.schedulingProfile",
+      "contactId": "jh0003",
+      "name": "schedulingProfile",
+      "model": "EO-CTM",
+      "description": "schedulingProfile.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "schedulingProfile"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.nrCell",
+      "contactId": "jh0003",
+      "name": "nrCell",
+      "model": "EO-CTM",
+      "description": "nrCell.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "nrCell"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctg.geographicAddress",
+      "contactId": "jh0003",
+      "name": "geographicAddress",
+      "model": "EO-CTM",
+      "description": "geographicAddress.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "geographicAddress"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ocrs.serviceCapabilitiesSet",
+      "contactId": "jh0003",
+      "name": "serviceCapabilitiesSet",
+      "model": "EO-CTM",
+      "description": "serviceCapabilitiesSet",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "serviceCapabilitiesSet"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.networkDomain",
+      "contactId": "jh0003",
+      "name": "networkDomain",
+      "model": "EO-CTM",
+      "description": "networkDomain",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "networkDomain"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.domainAdjacency",
+      "contactId": "jh0003",
+      "name": "domainAdjacency",
+      "model": "EO-CTM",
+      "description": "domainAdjacency",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "domainAdjacency"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.lteCell",
+      "contactId": "jh0003",
+      "name": "lteCell",
+      "model": "EO-CTM",
+      "description": "lteCell",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "lteCell"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.logicalAntenna",
+      "contactId": "jh0003",
+      "name": "logicalAntenna",
+      "model": "EO-CTM",
+      "description": "logicalAntenna",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "logicalAntenna"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.lteFrequency",
+      "contactId": "jh0003",
+      "name": "lteFrequency",
+      "model": "EO-CTM",
+      "description": "lteFrequency",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "lteFrequency"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.lteFrequencyRelation",
+      "contactId": "jh0003",
+      "name": "lteFrequencyRelation",
+      "model": "EO-CTM",
+      "description": "lteFrequencyRelation",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "lteFrequencyRelation"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.nrFrequency",
+      "contactId": "jh0003",
+      "name": "nrFrequency",
+      "model": "EO-CTM",
+      "description": "nrFrequency",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "nrFrequency"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.nrFrequencyRelation",
+      "contactId": "jh0003",
+      "name": "nrFrequencyRelation",
+      "model": "EO-CTM",
+      "description": "nrFrequencyRelation",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "nrFrequencyRelation"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.nrSectorCarrier",
+      "contactId": "jh0003",
+      "name": "nrSectorCarrier",
+      "model": "EO-CTM",
+      "description": "nrSectorCarrier",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "nrSectorCarrier"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.plmnInfo",
+      "contactId": "jh0003",
+      "name": "plmnInfo",
+      "model": "EO-CTM",
+      "description": "plmnInfo",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "plmnInfo"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctc.equipment",
+      "contactId": "jh0003",
+      "name": "equipment",
+      "model": "EO-CTM",
+      "description": "equipment.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "equipment"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.wirelessEquipment",
+      "contactId": "jh0003",
+      "name": "wirelessEquipment",
+      "model": "EO-CTM",
+      "description": "wirelessEquipment.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "wirelessEquipment"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.antennaModule",
+      "contactId": "jh0003",
+      "name": "antennaModule",
+      "model": "EO-CTM",
+      "description": "antennaModule.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "antennaModule"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.eutRanNode",
+      "contactId": "jh0003",
+      "name": "eutRanNode",
+      "model": "EO-CTM",
+      "description": "eutRanNode.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "eutRanNode"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.eNodeB",
+      "contactId": "jh0003",
+      "name": "eNodeB",
+      "model": "EO-CTM",
+      "description": "eNodeB.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "eNodeB"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.equipmentModule",
+      "contactId": "jh0003",
+      "name": "equipmentModule",
+      "model": "EO-CTM",
+      "description": "equipmentModule.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "equipmentModule"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.sectorEquipment",
+      "contactId": "jh0003",
+      "name": "sectorEquipment",
+      "model": "EO-CTM",
+      "description": "sectorEquipment.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "sectorEquipment"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ctw.serviceProfile",
+      "contactId": "jh0003",
+      "name": "serviceProfile",
+      "model": "EO-CTM",
+      "description": "serviceProfile.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "serviceProfile"
+      ]
+    },
+    {
+      "tags": [
+        "wirelessEquipment"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ojs.schedule",
+      "contactId": "jh0003",
+      "name": "schedule",
+      "model": "EO-CTM",
+      "description": "schedule.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ors.discoveryConfiguration",
+      "contactId": "jh0003",
+      "name": "discoveryConfiguration",
+      "model": "EO-CTM",
+      "description": "discoveryConfiguration.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "discoveryConfiguration"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ors.discoveryGroup",
+      "contactId": "jh0003",
+      "name": "discoveryGroup",
+      "model": "EO-CTM",
+      "description": "discoveryGroup.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "discoveryGroup"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ors.discoveryJobDefinition",
+      "contactId": "jh0003",
+      "name": "discoveryJobDefinition",
+      "model": "EO-CTM",
+      "description": "discoveryJobDefinition.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "discoveryJobDefinition"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ors.nmsEms",
+      "contactId": "jh0003",
+      "name": "nmsEms",
+      "model": "EO-CTM",
+      "description": "nmsEms.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "nmsEms"
+      ]
+    },
+    {
+      "toscaName": "topology.nodes.ors.reconciliationPolicy",
+      "contactId": "jh0003",
+      "name": "reconciliationPolicy",
+      "model": "EO-CTM",
+      "description": "reconciliationPolicy.",
+      "resourceIconPath": "defaulticon",
+      "resourceType": "VFC",
+      "categories": [
+      {
+        "name": "Generic",
+        "subcategories": [
+          {
+            "name": "Network Elements"
+          }
+        ]
+      }
+    ],
+      "tags": [
+        "reconciliationPolicy"
+      ]
+    }
+  ]
+}

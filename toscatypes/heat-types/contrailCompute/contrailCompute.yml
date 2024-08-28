@@ -1,0 +1,82 @@
+tosca_definitions_version: tosca_simple_yaml_1_0_0
+node_types:
+  org.openecomp.resource.vfc.nodes.heat.contrail.Compute:
+    derived_from: org.openecomp.resource.vfc.nodes.Compute
+    properties:
+      flavor:
+        type: string
+        description: flavor
+        required: false
+        status: supported
+      image_name:
+        type: string
+        description: Image name
+        required: true
+        status: supported
+      availability_zone:
+        type: string
+        description: Availability zone to create servers in
+        required: false
+        status: supported
+      service_type:
+        type: string
+        description: Service type
+        required: true
+        status: supported
+        constraints:
+        - valid_values:
+          - firewall
+          - analyzer
+          - source-nat
+          - loadbalancer
+      availability_zone_enable:
+        type: boolean
+        description: Indicates availability zone is enabled
+        required: false
+        default: false
+        status: supported
+      service_template_name:
+        type: string
+        description: Service template name
+        required: false
+        status: supported
+      service_instance_name:
+        type: string
+        description: Service instance name
+        required: true
+        status: supported
+      service_mode:
+        type: string
+        description: Service mode
+        required: true
+        status: supported
+        constraints:
+        - valid_values:
+          - transparent
+          - in-network
+          - in-network-nat
+    attributes:
+      tenant_id:
+        type: string
+        description: Tenant id of the VM
+        status: supported
+      fq_name:
+        type: string
+        description: fq_name
+        status: supported
+      show:
+        type: string
+        description: All attributes
+        status: supported
+      active_vms:
+        type: string
+        description: Number of active VMs
+        status: supported
+      virtual_machines:
+        type: string
+        description: VMs of this compute
+        status: supported
+      status:
+        type: string
+        description: status of the compute
+        status: supported

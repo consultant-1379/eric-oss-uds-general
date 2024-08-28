@@ -1,0 +1,21 @@
+{
+  "payloadName": "EO_BaseService.yml",
+  "contactId": "jh0003",
+  "name": "EO_BaseService",
+  "description": "Represents an Ericsson Orchestrator base service.",
+  "resourceIconPath": "defaulticon",
+  "resourceType": "ABSTRACT",
+  "categories": [
+  {
+    "name": "Generic",
+    "subcategories": [
+      {
+        "name": "Abstract"
+      }
+    ]
+  }
+],
+  "tags": [
+    "EO_BaseService"
+  ]
+}

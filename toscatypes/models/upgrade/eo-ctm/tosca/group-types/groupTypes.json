@@ -1,0 +1,34 @@
+{
+  "tosca.groups.Root": {
+    "displayName": "Root",
+    "icon": "group-root"
+  },
+  "org.openecomp.groups.heat.HeatStack": {
+    "displayName": "Heat Stack",
+    "icon": "group-heat-stack"
+  },
+  "org.openecomp.groups.VfModule": {
+    "displayName": "VF Module",
+    "icon": "group-vf-module"
+  },
+  "org.openecomp.groups.NetworkCollection": {
+    "displayName": "Network Collection",
+    "icon": "group-network-collection"
+  },
+  "org.openecomp.groups.VfcInstanceGroup": {
+    "displayName": "Vfc Instance",
+    "icon": "group-vfc-instance"
+  },
+  "tosca.groups.nfv.PlacementGroup": {
+    "displayName": "NFV PlacementGroup",
+    "icon": "group-nfv-placementgroup"
+  },
+  "tosca.groups.nfv.NsPlacementGroup": {
+    "displayName": "NFV NS PlacementGroup",
+    "icon": "group-nfv-placementgroup"
+  },
+  "tosca.groups.nfv.VNFFG": {
+    "displayName": "NFV VNF Forwarding Graph",
+    "icon": "group-nfv-placementgroup"
+  }
+}

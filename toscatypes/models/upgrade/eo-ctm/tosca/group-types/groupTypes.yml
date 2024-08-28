@@ -1,0 +1,7 @@
+# TOSCA Simple Yaml Profile 1.3 types
+
+tosca.groups.Root:
+  description: The TOSCA Group Type all other TOSCA Group Types derive from
+  interfaces:
+    Standard:
+      type: tosca.interfaces.node.lifecycle.Standard
